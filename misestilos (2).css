@@ -1,0 +1,55 @@
+/* Este es un comentario en CSS */
+body { 
+    background-color: lightgrey; /* Establece el color de fondo de un elemento. */
+    color: blue; /*Define el color del texto.*/
+    margin: 20px;/*Agrega espacio fuera del borde del elemento*/
+    padding: 15px;/*Agrega espacio dentro del borde del elemento.*/
+    border: 2px solid black;/*Agrega un borde alrededor del elemento.*/
+    border-radius: 10px;/*Redondea las esquinas de un elemento.*/
+    background-image: url('../../../Submitted%20files/DAYANA%20GAONA%20GARZON/Agregar%20CSS%20estilos%20a%20mi%20p�gina%20web%20parte%202/fondo.jpg');/*Coloca una imagen de fondo.*/
+    opacity: 0.8;/*Controla la transparencia del elemento.*/
+    cursor: pointer;/*Cambia el icono del cursor al pasar por encima.*/
+ }
+
+h1 {
+    color: green;
+    text-align: center; 
+    text-transform: uppercase;/*Transforma el texto a mayúsculas, minúsculas o tipo título.*/
+    display: block;/*Define cómo se muestra un elemento (block, inline, none, etc.).*/
+    position: relative;/*Permite ubicar elementos de forma específica (static, relative, absolute, fixed).*/
+    top: 20px;
+    left: 10px;/*Usadas junto con position para mover elementos*/
+}
+
+h2 {
+  color: red;
+  text-align: left;/*Alinea el texto dentro de su contenedor.*/
+  font-weight: bold;/*Controla el grosor del texto.*/
+  width: 200px;/*Define el ancho de un elemento.*/
+  height: 100px;/*Define la altura de un elemento.*/
+}
+
+p {
+  color: yellowgreen  
+  font-family: verdana;/*Elige la tipografía o fuente del texto.*/
+  font-size: 20px; /*Cambia el tamaño del texto.*/
+  text-decoration: underline;/*Agrega o elimina decoraciones al texto (como subrayado).*/
+}
+
+img {
+  width: 100px;             /* Ancho de la imagen */
+  height: auto;             /* Mantiene proporción */
+  border: 3px solid black;  /* Borde negro */
+  border-radius: 15px;      /* Esquinas redondeadas */
+  box-shadow: 5px 5px 10px gray; /* Sombra */
+  opacity: 0.9;             /* Ligera transparencia */
+  display: block;           /* Permite centrarla */
+  margin: 20px auto;        /* Centrada horizontalmente */
+  transition: transform 0.3s; /* Efecto suave */
+}
+
+/* Efecto al pasar el cursor */
+img:hover {
+  transform: scale(1.5); /* Aumenta de tamaño */
+  opacity: 1;            /* Recupera opacidad total */
+}
